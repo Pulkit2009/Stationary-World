@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stationary</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        .navbar{
+            background-color: black;
+            width: 100%;
+            height: 75px;
+            line-height: 75px;
+            padding: 0px 100px;
+            position: fixed;
+            display: flex;
+            
+            
+
+        }
+        li{
+            color: white;
+            padding: 0px 20px;
+            float: right;
+        }
+        
+        body{
+            background-color: rgb(244, 244, 244);
+        }
+        .navheading{
+            text-align: center;
+            color: white;
+            padding-right:150px;
+
+        }
+        .link{
+            padding-left:150px;
+        }
+        .ShoppingCart{
+            background-color: blue;
+            color: white;
+            border: none;
+            height: 35px;
+            
+        }
+        .ShoppingCart:hover{
+            background-color: rgb(28, 28, 186);
+        }
+
+        .column{
+            float: left;
+            width: 300px;
+            padding: 50px;
+            padding-top: 150px;
+            padding-left: 50px;
+            height: 300px;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+            padding-top:150px;
+
+        }
+
+        .pencil{
+            padding-left: 70px;
+        }
+        .eraser{
+            padding-left: 100px;
+        }
+            
+        .eraserimg{
+            background-color:none;
+            height: 200px;
+        }
+        .pen{
+            padding-left: 90px;
+        }
+        
+        
+
+        
+       
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        
+         <h1 class="navheading">STATIONARY WORLD</h1>
+         
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+         <div class="link">
+            <a href="cart.html"><button class="ShoppingCart">Shopping Cart</button></a>
+        
+        </div>
+         
+    </div>
+       
+     <div class="row">
+        <div class="column">
+            <a href="pencil.html"><img src="pencils.jpeg" alt="" width="100%"></a>
+            <h3 class="pencil">Colorfull Pencils</h3>
+        </div>
+        <div class="column">
+            <a href="eraser.html"><img src="eraser.jpg" alt="" width="100%" class="eraserimg"></a>
+            <h3 class="eraser">Red/Blue Eraser</h3>
+        </div>
+        <div class="column">
+            <a href="pen.html"><img src="trimxa.jpeg" alt=""></a>
+            <h3 class="pen">Box Of Trimax Pens(Blue,Black,Green,Red)</h3>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

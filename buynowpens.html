@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .navbar{
+            background-color: black;
+            width: 100%;
+            height: 75px;
+            display: flex;
+            color: white;
+            line-height: 75px;
+            
+
+        }
+        h1{
+            padding-right: 50px;
+            padding-left: 100px;
+        }
+        li{
+            padding-left: 100px;
+            text-decoration: none;
+            color: white;
+        }
+        .ShoppingCart{
+            margin-left: 150px;
+            background-color:blue;
+            color: white;
+            border: none;
+            height: 35px;
+        }
+        .ShoppingCart:hover{
+            background-color: rgb(28, 28, 186)
+        }
+
+
+        .box1{
+            border: 1px solid black;
+            margin-top: 50px;
+            height: 300px;
+            width: 700px;
+            margin-left: 250px;
+            background-color:aliceblue;
+        
+
+        }
+        tr,th,td{
+            border: 1px solid black;
+        }
+        table{
+            margin-top: -200px;
+            margin-left: 330px;
+        }
+
+        .box2{
+            border: 1px solid black;
+            margin-top: 50px;
+            height: 400px;
+        }
+
+        .place{
+            margin-left: 550px;
+            background-color: orangered;
+            color: white;
+            border: none;
+            height: 35px;
+            padding-right: 35px;
+            text-align: center;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <i><h1>STATIONARY WORLD</h1></i>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+        <div class="navbutton">
+            <a href="cart.html"><button class="ShoppingCart">Shopping Cart</button></a>
+        </div>
+    </div>
+
+    <div class="box1">
+        <img src="trimxa.jpeg" alt="" style="height: 300px;width: 300px;">
+        <table>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Price(Of 1)</th>
+            </tr>
+            <tr>
+                <td>Trimax Pens</td>
+                <td><input type="numbers"></td>
+                <td>250</td>
+
+            </tr>
+        </table>
+    </div>
+
+    <div class="box2">
+        <h1 style="text-align: center;margin-top: 20px;">Select Payment Method</h1>
+        <h3><input type="checkbox" name="Credit Card" id="1">  Credit Card</h3>
+        <h3><input type="checkbox" name="Debit Card" id="2"> Debit Card</h3>
+        <h3><input type="checkbox" name="Cash" id="">Cash</h3>
+        <h3><input type="checkbox" name="Coupon Code" id="">Coupon Code</h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="text-align:cenetr; margin-left: 400px;">Enter The Address</h1>
+       <input type="text"><h3>Address</h3>
+       <br>
+       <br>
+       <br>
+       <a href="orderconfirm.html"><button class="place">Place Order</button></a>
+
+       
+
+
+    </div>
+
+
+     
+    
+    
+    
+
+</body>
+</html>
